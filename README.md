@@ -23,8 +23,6 @@ This is an app that allow users to search for 1,000,000 recipes online.
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- Control the toggle with both their mouse/trackpad and their keyboard
 - Search for recipes
 - Update the number of servings
 - Bookmark recipes
@@ -56,7 +54,7 @@ Users should be able to:
 
 - Implementation of MVC architecture in organization code
 This is something really important that I have learnt from this project. It taught me how to write maintainable, modular code with even just using Javascript.
-This allows ease of debugging, maintainbility and ease of adding new features in the future.
+This allows ease of debugging, maintainability, and ease of adding new features in the future.
 
 - Async/Await/Promises
 
@@ -80,8 +78,9 @@ This allows ease of debugging, maintainbility and ease of adding new features in
 
 ### Continued development
 
-To develop this into a full-stack development
+- To develop this into a full-stack application
+- Allow responsive design - currently, it is only desktop/laptop friendly
 
 ## Acknowledgments
 
-This project is done alongside with my learning in Jonas Schmedtmann's [The Complete Javascript Course 2023: From Zero to Expert](https://www.udemy.com/course/the-complete-javascript-course/) on Udemy
+This project is done alongside my learning in Jonas Schmedtmann's [The Complete Javascript Course 2023: From Zero to Expert](https://www.udemy.com/course/the-complete-javascript-course/) on Udemy
