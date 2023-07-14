@@ -33,13 +33,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+- Main: ![./src/screenshots/main%20interface.png](./src/screenshots/main%20interface.png)
+- Pagination: ![./src/screenshots/pagination.png](./src/screenshots/pagination.png)
+- Upload Recipe: ![./src/screenshots/upload%20recipe.png](./src/screenshots/upload%20recipe.png)
 
 ### Links
 
 - Solution URL: [https://github.com/Jo-cloud85/forkify-jo-cloud85.git](https://github.com/Jo-cloud85/forkify-jo-cloud85.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://forkify-jo-cloud85.netlify.app/](https://forkify-jo-cloud85.netlify.app/)
 
 ## My process
 
@@ -50,7 +51,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
-
 
 ### What I learned
 
@@ -66,23 +66,21 @@ This allows ease of debugging, maintainbility and ease of adding new features in
     - parent classes like View.js so that 'children' classes can inherit code by using 'extends View'
 
 - Specifically, I have learnt many new methods such as:
-1. document.createRange().createContextualFragment(newMarkup); (under View.js)
-2. isEqualNode() (under View.js)
-3. nodeValue (under View.js)
-4. window.history.pushState(null, '', `#${model.state.recipe.id}`); (under Controller.js)
+1. ```document.createRange().createContextualFragment(newMarkup);``` (under View.js)
+2. ```isEqualNode()``` (under View.js)
+3. ```nodeValue``` (under View.js)
+4. ```window.history.pushState(null, '', `#${model.state.recipe.id}`);``` (under Controller.js)
     - This is another web API called history API which takes in 3 arguments
-5. ...(recipe.key && { key: recipe.key }) (under model.js)
+5. ```...(recipe.key && { key: recipe.key })``` (under model.js)
     - This is a trick to conditionally add properties to an object
-6. const data = Object.fromEntries(dataArr);  (under addRecipeView.js)
+6. ```const data = Object.fromEntries(dataArr);```  (under addRecipeView.js)
     - This method behaves the opposite of Object.entries() where it convert an array to objects
+7. Fracty library
+    - This is another library besides Fractional that allows the ease of conversion to fraction format. Apparently, fractional has bugs issue when deploy to Netlify.
 
 ### Continued development
 
 To develop this into a full-stack development
-
-### Useful resources
-
--
 
 ## Acknowledgments
 

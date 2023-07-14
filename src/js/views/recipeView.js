@@ -1,6 +1,5 @@
 import View from './View.js';
 import icons from 'url:../../img/icons.svg'; //Parcel 2
-// import { Fraction } from 'fractional';
 import fracty from "fracty";
 
 class RecipeView extends View {
@@ -121,13 +120,12 @@ class RecipeView extends View {
 export default new RecipeView(); //creating a new object here
 
 /*
-Now, how do we then actually pass any data into the recipeView? Because if we're not creating 
-the new obj ourselves, then we cannot pass any data in like for the constructor. So we cannot 
-pass any data into this RecipeView as we're creating that object right here in the RecipeView 
-module already.
+Now, how do we then actually pass any data into the recipeView? Because if we're not creating the new obj 
+ourselves, then we cannot pass any data in like for the constructor. So we cannot pass any data into this 
+RecipeView as we're creating that object right here in the RecipeView module already.
 
-Answer: use the render() method on recipeView in controller.js. The render() will accept the
-model.state.recipe data and store it into this RecipeView() obj.
+Answer: use the render() method on recipeView in controller.js. The render() will accept the 
+model.state.recipe data and store it into this RecipeView() obj. 
 
 Note that we are importing this class RecipeView under controller.js as recipeView.
 */
