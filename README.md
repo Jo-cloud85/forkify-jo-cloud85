@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Jo-cloud85/forkify-jo-cloud85.git](https://github.com/Jo-cloud85/forkify-jo-cloud85.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
