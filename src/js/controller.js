@@ -24,7 +24,7 @@ const controlRecipes = async function() {
     
     // 2) Loading recipe
     /* 
-    Note that is loadRecipe fn is async thus it returns a promise. We have to 'await' this 
+    Note that loadRecipe fn is async thus it returns a promise. We have to 'await' this 
     promise to move on to the next step here in the execution of this async fn. Btw, this 
     is a situation of one async fn calling another async fn. And rmb, this loadRecipe does 
     not return anything so we don't need to store it in another variable. Instead, here we
@@ -39,6 +39,7 @@ const controlRecipes = async function() {
     recipeView.renderError();
   }
 };
+
 
 const controlSearchResults = async function () {
   try {
@@ -61,6 +62,7 @@ const controlSearchResults = async function () {
   }
 };
 
+
 const controlPagination = function (goToPage) {
   // 1) Render NEW results
   resultsView.render(model.getSearchResultsPage(goToPage));
@@ -69,14 +71,15 @@ const controlPagination = function (goToPage) {
   paginationView.render(model.state.search);
 }
 
+
 const controlServings = function(newServings) {
   // Update the recipe servings (in state)
   model.updateServings(newServings);
 
   // Update the recipe view
-  // recipeView.render(model.state.recipe);
   recipeView.update(model.state.recipe);
 }
+
 
 const controlAddBookmark = function() {
   // 1) Add/remove bookmark
@@ -95,6 +98,7 @@ const controlAddBookmark = function() {
 const controlBookmarks = function() {
   bookmarksView.render(model.state.bookmarks);
 }
+
 
 const controlAddRecipe = async function(newRecipe) {
   try {
