@@ -95,6 +95,7 @@ const controlAddBookmark = function() {
   bookmarksView.render(model.state.bookmarks);
 }
 
+
 const controlBookmarks = function() {
   bookmarksView.render(model.state.bookmarks);
 }
